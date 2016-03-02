@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "NKVideo.h"
 
-@interface NKDirectVideo : NSObject
-
+@interface NKDirectVideo : NSObject <NKVideo>
+@property (nonatomic, strong) NSURL *contentURL;
+@property (nonatomic, strong) id currentVC;
 @end

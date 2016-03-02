@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D9C96171C86BC0000BE1722 /* moviePause.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9C96111C86BC0000BE1722 /* moviePause.png */; settings = {ASSET_TAGS = (); }; };
+		9D9C96181C86BC0000BE1722 /* moviePause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9C96121C86BC0000BE1722 /* moviePause@2x.png */; settings = {ASSET_TAGS = (); }; };
+		9D9C96191C86BC0000BE1722 /* moviePlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9C96131C86BC0000BE1722 /* moviePlay.png */; settings = {ASSET_TAGS = (); }; };
+		9D9C961A1C86BC0000BE1722 /* moviePlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9C96141C86BC0000BE1722 /* moviePlay@2x.png */; settings = {ASSET_TAGS = (); }; };
+		9D9C961B1C86BC0000BE1722 /* slider-default-handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9C96151C86BC0000BE1722 /* slider-default-handle.png */; settings = {ASSET_TAGS = (); }; };
+		9D9C961C1C86BC0000BE1722 /* slider-default-handle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D9C96161C86BC0000BE1722 /* slider-default-handle@2x.png */; settings = {ASSET_TAGS = (); }; };
 		9DCE78081C85791B0025C441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE78071C85791B0025C441 /* main.m */; };
 		9DCE780B1C85791B0025C441 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE780A1C85791B0025C441 /* AppDelegate.m */; };
 		9DCE780E1C85791B0025C441 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE780D1C85791B0025C441 /* ViewController.m */; };
@@ -15,6 +21,7 @@
 		9DCE78161C85791B0025C441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCE78141C85791B0025C441 /* LaunchScreen.storyboard */; };
 		9DCE78211C85791B0025C441 /* OverlayVideoAdsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE78201C85791B0025C441 /* OverlayVideoAdsTests.m */; };
 		9DCE782C1C85791B0025C441 /* OverlayVideoAdsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE782B1C85791B0025C441 /* OverlayVideoAdsUITests.m */; };
+		9DCE78431C857CA70025C441 /* NKDirectVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE78421C857CA70025C441 /* NKDirectVideo.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9D9C96111C86BC0000BE1722 /* moviePause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moviePause.png; sourceTree = "<group>"; };
+		9D9C96121C86BC0000BE1722 /* moviePause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviePause@2x.png"; sourceTree = "<group>"; };
+		9D9C96131C86BC0000BE1722 /* moviePlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moviePlay.png; sourceTree = "<group>"; };
+		9D9C96141C86BC0000BE1722 /* moviePlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviePlay@2x.png"; sourceTree = "<group>"; };
+		9D9C96151C86BC0000BE1722 /* slider-default-handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-default-handle.png"; sourceTree = "<group>"; };
+		9D9C96161C86BC0000BE1722 /* slider-default-handle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider-default-handle@2x.png"; sourceTree = "<group>"; };
 		9DCE78031C85791B0025C441 /* OverlayVideoAds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverlayVideoAds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCE78071C85791B0025C441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9DCE78091C85791B0025C441 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +64,9 @@
 		9DCE78271C85791B0025C441 /* OverlayVideoAdsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverlayVideoAdsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCE782B1C85791B0025C441 /* OverlayVideoAdsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OverlayVideoAdsUITests.m; sourceTree = "<group>"; };
 		9DCE782D1C85791B0025C441 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCE78401C857C5E0025C441 /* NKVideo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NKVideo.h; sourceTree = "<group>"; };
+		9DCE78411C857CA70025C441 /* NKDirectVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NKDirectVideo.h; sourceTree = "<group>"; };
+		9DCE78421C857CA70025C441 /* NKDirectVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NKDirectVideo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,7 @@
 		9DCE78051C85791B0025C441 /* OverlayVideoAds */ = {
 			isa = PBXGroup;
 			children = (
+				9DCE783B1C857BF00025C441 /* NKVideoUtility */,
 				9DCE78091C85791B0025C441 /* AppDelegate.h */,
 				9DCE780A1C85791B0025C441 /* AppDelegate.m */,
 				9DCE780C1C85791B0025C441 /* ViewController.h */,
@@ -117,6 +134,12 @@
 		9DCE78061C85791B0025C441 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9D9C96111C86BC0000BE1722 /* moviePause.png */,
+				9D9C96121C86BC0000BE1722 /* moviePause@2x.png */,
+				9D9C96131C86BC0000BE1722 /* moviePlay.png */,
+				9D9C96141C86BC0000BE1722 /* moviePlay@2x.png */,
+				9D9C96151C86BC0000BE1722 /* slider-default-handle.png */,
+				9D9C96161C86BC0000BE1722 /* slider-default-handle@2x.png */,
 				9DCE78071C85791B0025C441 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +161,16 @@
 				9DCE782D1C85791B0025C441 /* Info.plist */,
 			);
 			path = OverlayVideoAdsUITests;
+			sourceTree = "<group>";
+		};
+		9DCE783B1C857BF00025C441 /* NKVideoUtility */ = {
+			isa = PBXGroup;
+			children = (
+				9DCE78401C857C5E0025C441 /* NKVideo.h */,
+				9DCE78411C857CA70025C441 /* NKDirectVideo.h */,
+				9DCE78421C857CA70025C441 /* NKDirectVideo.m */,
+			);
+			path = NKVideoUtility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +276,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D9C961A1C86BC0000BE1722 /* moviePlay@2x.png in Resources */,
 				9DCE78161C85791B0025C441 /* LaunchScreen.storyboard in Resources */,
+				9D9C961B1C86BC0000BE1722 /* slider-default-handle.png in Resources */,
 				9DCE78131C85791B0025C441 /* Assets.xcassets in Resources */,
+				9D9C96181C86BC0000BE1722 /* moviePause@2x.png in Resources */,
 				9DCE78111C85791B0025C441 /* Main.storyboard in Resources */,
+				9D9C96191C86BC0000BE1722 /* moviePlay.png in Resources */,
+				9D9C96171C86BC0000BE1722 /* moviePause.png in Resources */,
+				9D9C961C1C86BC0000BE1722 /* slider-default-handle@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DCE780E1C85791B0025C441 /* ViewController.m in Sources */,
+				9DCE78431C857CA70025C441 /* NKDirectVideo.m in Sources */,
 				9DCE780B1C85791B0025C441 /* AppDelegate.m in Sources */,
 				9DCE78081C85791B0025C441 /* main.m in Sources */,
 			);
@@ -412,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OverlayVideoAds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Niks.OverlayVideoAds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OverlayVideoAds/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Niks.OverlayVideoAds;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +538,7 @@
 				9DCE78321C85791B0025C441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DCE78331C85791B0025C441 /* Build configuration list for PBXNativeTarget "OverlayVideoAdsTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +547,7 @@
 				9DCE78351C85791B0025C441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DCE78361C85791B0025C441 /* Build configuration list for PBXNativeTarget "OverlayVideoAdsUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +556,7 @@
 				9DCE78381C85791B0025C441 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
